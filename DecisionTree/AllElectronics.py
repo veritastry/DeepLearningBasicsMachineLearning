@@ -63,8 +63,9 @@ newRowX[0] = 1
 newRowX[2] = 0
 print("newRowX:" + str(newRowX))
 
-newRowX = numpy.array(newRowX).reshape((1, -1))
+# newRowX = numpy.array(newRowX).reshape((1, -1))
+# predictedY = clf.predict(newRowX)
 
-predictedY = clf.predict(newRowX)
+predictedY = clf.predict([newRowX])
 
 print("predictedY:" + str(predictedY))
