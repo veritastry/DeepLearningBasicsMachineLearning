@@ -6,6 +6,8 @@
 @time: 2017/07/11 
 """
 
+# 线性可区分(linear separable)
+
 print(__doc__)
 
 import numpy as np
